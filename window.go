@@ -33,7 +33,7 @@ func (b *bucket) Fail() {
 	b.failure++
 }
 
-// Sucecss increments the success count
+// Success: Sucecss increments the success count
 func (b *bucket) Success() {
 	b.success++
 }
